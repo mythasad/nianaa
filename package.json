@@ -10,6 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.0.7"
+    "astro": "^4.0.7",
+    "firebase": "^10.7.1",
+    "sass": "^1.69.5"
   }
 }

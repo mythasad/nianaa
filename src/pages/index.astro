@@ -8,11 +8,70 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content="Nianaa">
+		<meta name="description" content="Nianaa" />
 		<title>Nianaa | For future.</title>
+		<style lang="scss">
+			*{ 	margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				background-color: #e8fbff;
+				border: 1px solid rgba(49, 16, 197, 0.377);
+			}
+			body{
+				width: 99.9vw;
+				nav{
+					width: 100%;
+				a{	
+					text-decoration: none;
+					padding: 7px;
+					color: #0c10e8;
+					font-weight: bold;
+					font-size: large;
+				}
+			}
+			}
+			div {
+				display: flex;
+				justify-content:left;
+				align-items: center;
+				img {
+					border-radius: 50% 1% 60% 0%;
+					background-color: #f0f1b5;
+					padding: 1px;
+					margin: 7px;
+					height: 59px;
+					box-shadow: 0px 0px 20px 20px #d3909050;
+				}
+				div {
+					display: flex;
+					flex-direction: column;
+				}
+			}
+
+			
+		</style>
 	</head>
 	<body>
-		<h1>Nianaa</h1>
-		<span>For future.</span>
+		<header>
+			<div>
+				<img src="/Nianaa.png" alt="Nianaa Logo" />
+				<div>
+					<h1>Nianaa</h1>
+					<p>For future.</p>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<a href="/">Home</a>
+			<a href="/blog">Blogs</a>
+			<a href="/about">About Us</a>
+		</nav>
+		<main>
+			<section></section>
+			<article></article>
+			<aside></aside>
+		</main>
+
+		<footer></footer>
 	</body>
 </html>

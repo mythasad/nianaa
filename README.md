@@ -1,47 +1,30 @@
-# Astro Starter Kit: Minimal
+# Uncover Your Dream Future, at Nianaa
 
-```sh
-npm create astro@latest -- --template minimal
-```
+***Nianaa isn't just a website, it's a portal to the life you always envisioned.*** We believe everyone deserves a fulfilling career, vibrant health, and a life that sings. But sometimes, navigating the journey can feel like deciphering a cryptic map in a foreign land. That's where Nianaa steps in, your trusted cartographer and compass on this exciting self-discovery quest.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## Here's how Nianaa empowers your success:
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### Education with a Purpose:
 
-## 🚀 Project Structure
+* **Ditch the generic courses** and embark on curated learning expeditions tailored to your unique aspirations.
+* **Master the skills** needed for your dream career, understand the intricacies of your health choices, and make informed decisions that ripple with purpose throughout your life.
 
-Inside of your Astro project, you'll see the following folders and files:
+### Dream Career Architects:
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+* Our expert coaches aren't just mentors, **they're your career champions.**
+* Get personalized guidance, insightful resources, and unwavering support as you build the fulfilling career you deserve.
+* They'll help you navigate the tricky terrain of career choices, conquer the peaks of self-doubt, and celebrate every victory, big or small.
+### Unlocking Your Potential:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+* Nianaa is more than just a knowledge bank; **it's about igniting your inner fire.**
+* Through interactive tools, self-reflection exercises, and a supportive community, discover your true strengths, overcome roadblocks, and unleash your hidden talents.
+### Cultivating Your Dreams:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+* At Nianaa, your dreams aren't just aspirations, **they're fertile seeds waiting to bloom.**
+* We equip you with the knowledge, skills, and unwavering support to nurture your dreams, conquer every challenge, and finally step into the life you were meant to live.
 
-Any static assets, like images, can be placed in the `public/` directory.
+**Visit Nianaa today and start building your dream future, one intentional step at a time.**
 
-## 🧞 Commands
+***Remember, your dream life is waiting. Don't let it pass you by.***
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+*Start your journey now. Nianaa awaits.*
