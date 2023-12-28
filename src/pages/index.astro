@@ -11,44 +11,52 @@
 		<meta name="description" content="Nianaa" />
 		<title>Nianaa | For future.</title>
 		<style lang="scss">
-			*{ 	margin: 0;
+			* {
+				margin: 0;
 				padding: 0;
 				box-sizing: border-box;
 				background-color: #e8fbff;
 				border: 1px solid rgba(49, 16, 197, 0.377);
 			}
-			body{
+			body {
 				width: 99.9vw;
-				nav{
+				nav {
 					width: 100%;
-				a{	
-					text-decoration: none;
-					padding: 7px;
-					color: #0c10e8;
-					font-weight: bold;
-					font-size: large;
+					a {
+						display: inline-block;
+						text-decoration: none;
+						padding: 7px;
+						color: #0c10e8;
+						font-weight: bold;
+						font-size: large;
+					}
 				}
 			}
-			}
-			div {
+			header {
 				display: flex;
-				justify-content:left;
-				align-items: center;
-				img {
-					border-radius: 50% 1% 60% 0%;
-					background-color: #f0f1b5;
-					padding: 1px;
-					margin: 7px;
-					height: 59px;
-					box-shadow: 0px 0px 20px 20px #d3909050;
+				nav {
+					display: flex;
+					justify-content: flex-end;
+					align-items: flex-start;
 				}
 				div {
+					width: 100%;
 					display: flex;
-					flex-direction: column;
+					align-items: flex-start;
+					img {
+						border-radius: 50% 1% 60% 0%;
+						background-color: #f0f1b5;
+						padding: 1px;
+						margin: 7px;
+						height: 59px;
+						box-shadow: 0px 0px 20px 20px #d3909050;
+					}
+					div {
+						display: flex;
+						flex-direction: column;
+					}
 				}
 			}
-
-			
 		</style>
 	</head>
 	<body>
@@ -60,11 +68,16 @@
 					<p>For future.</p>
 				</div>
 			</div>
+			<nav>
+				<a href="/">Home</a>
+				<a href="/blog">Blogs</a>
+				<a href="/about">About Us</a>
+			</nav>
 		</header>
 		<nav>
-			<a href="/">Home</a>
-			<a href="/blog">Blogs</a>
-			<a href="/about">About Us</a>
+			<a href="/courses">Courses</a>
+			<a href="/career">Career</a>
+			<a href="/lessons">Lessons</a>
 		</nav>
 		<main>
 			<section></section>
