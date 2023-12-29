@@ -16,8 +16,32 @@ const skills = [
     "Agriculture",
     "Medical Science",
 ];
-const options = ["Option 1", "Option 2", "Option 3", "Option 4","Option 1", "Option 2", "Option 3", "Option 4","Option 1", "Option 2", "Option 3", "Option 4","Option 1", "Option 2", "Option 3", "Option 4"];
 
+const happy = true;
+const finished = false;
+const goal = 3;
+const skillColor = "navy";
+const fontWeight = "bold";
+const textCase = "uppercase";
+
+const options = [
+    "Option 1",
+    "Option 2",
+    "Option 3",
+    "Option 4",
+    "Option 1",
+    "Option 2",
+    "Option 3",
+    "Option 4",
+    "Option 1",
+    "Option 2",
+    "Option 3",
+    "Option 4",
+    "Option 1",
+    "Option 2",
+    "Option 3",
+    "Option 4",
+];
 
 // Below code will show the options item  radmomly each time the browser refresh.
 function shuffleArray(array) {
@@ -40,6 +64,17 @@ displayRandomList();
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
+        <style define:vars={{ skillColor, fontWeight, textCase}}>
+            h1 {
+                color: purple;
+                font-size: 4rem;
+            }
+            .skill {
+                color: var(--skillColor);
+                font-weight: var(--fontWeight);
+                text-transform: var(--textCase);
+            }
+        </style>
     </head>
     <body>
         <h1>{pageTitle}</h1>
@@ -57,12 +92,22 @@ displayRandomList();
         </ul>
         <p>My skills are:</p>
         <ul>
-            {skills.map((skill) => <li>{skill}</li>)}
+            {skills.map((skill) => <li class="skill">{skill}</li>)}
         </ul>
         <p>The available options are:</p>
         <ol type="A" id="random-list">
             {options.map((option) => <li>{option}</li>)}
         </ol>
+
+        {happy && <p>You will be happy learning with Nianaa</p>}
+        {finished && <p>You are really welcome from us.</p>}
+        {
+            goal === 3 ? (
+                <p>Can you be with us?</p>
+            ) : (
+                <p>We think we did something wrong.</p>
+            )
+        }
         <footer>
             <p><a href="/">Back to the main page.</a></p>
         </footer>
