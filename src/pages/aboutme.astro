@@ -1,0 +1,70 @@
+---
+const pageTitle = "About Me";
+const pageDescription = "I am Md Asad Chowdhary, the founder of Nianaa.";
+const identity = {
+    firstName: "Md Asad",
+    lastName: "Chowdhary",
+    country: "Bangladesh",
+    occupation: "Student",
+    hobbies: ["Reading", "Writing", "Learning"],
+};
+const skills = [
+    "Web Programming",
+    "Software Engineering",
+    "Educational Development",
+    "Social Learning",
+    "Agriculture",
+    "Medical Science",
+];
+const options = ["Option 1", "Option 2", "Option 3", "Option 4","Option 1", "Option 2", "Option 3", "Option 4","Option 1", "Option 2", "Option 3", "Option 4","Option 1", "Option 2", "Option 3", "Option 4"];
+
+
+// Below code will show the options item  radmomly each time the browser refresh.
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+function displayRandomList() {
+    const shuffledOptions = shuffleArray(options);
+}
+displayRandomList();
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageDescription} />
+    </head>
+    <body>
+        <h1>{pageTitle}</h1>
+        <p>Here are the few things about me:</p>
+        <ul>
+            <li>My name is {identity.firstName} {identity.lastName}.</li>
+            <li>
+                I live in {identity.country} and I am a {identity.occupation}.
+            </li>
+            <li>
+                Two of my hobbies are: {identity.hobbies[0]} and {
+                    identity.hobbies[1]
+                }.
+            </li>
+        </ul>
+        <p>My skills are:</p>
+        <ul>
+            {skills.map((skill) => <li>{skill}</li>)}
+        </ul>
+        <p>The available options are:</p>
+        <ol type="A" id="random-list">
+            {options.map((option) => <li>{option}</li>)}
+        </ol>
+        <footer>
+            <p><a href="/">Back to the main page.</a></p>
+        </footer>
+    </body>
+</html>
